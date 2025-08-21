@@ -36,7 +36,6 @@ img.li {
 	float: left;
 	padding: 10px;
 	margin: -6 15px 25px 0;
-/*	border: 1px solid #ccc; */
 	width: auto;
     height: 320px;
 }
@@ -51,7 +50,6 @@ img.li {
 	}
 
 .head {
-/*	margin: 0 0 0 209px; */
 	margin: 0 0 0 0px;
 }
 
@@ -70,8 +68,6 @@ img.li {
 	padding: 0;
 	list-style: none;
 	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
-/*	background-color: #f2f2f2;
-	font-size: 90%; */
 	font-size: 130%;
 	}
 #nav li {
@@ -79,7 +75,6 @@ img.li {
 #nav li a {
 	display: block;
 	padding: 8px 30px;
-/*	padding: 8px 45px; */
 	text-decoration: none;
 	font-weight: bold;
 	color: #000000;
@@ -87,7 +82,6 @@ img.li {
 	}
 #nav li a:hover {
 	color: #c1402b;
-/*	background-color: #ebeaea; */
 	 }
 
 /* end navigation */
@@ -122,17 +116,13 @@ h3 {
 	padding: 15px 0 6px 0;
 }
 p, li  {
-/* ---	font-size: 90%; */
 	font-size: 100%;
 	line-height: 23px;
 	margin: 0;
 	padding: 0 0 9px 0;
 	text-align: justify;
 }
-/* ---- ol {
-	margin: 0 0 0 19px;
-	padding: 0;
-}----*/
+
 
 ol {
     counter-reset: list;
@@ -144,17 +134,7 @@ ol > li {
 
 ol > li:before {
     content: "[" counter(item) "] ";
-    /* counter-increment: list; */
 }
-
-/* ol.working > li:before {
-    content: "[" counter(list) "] ";
-    counter-increment: list -1;
-}
-ol.pubs > li:before {
-    content: "[" counter(list) "] ";
-    counter-increment: list -1;
-} */
 
 
 ul {
