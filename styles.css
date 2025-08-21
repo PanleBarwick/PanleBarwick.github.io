@@ -140,10 +140,10 @@ ol {
 ol > li {
     list-style: none;
 }
-ol > li:before {
+/* ol > li:before {
     content: "[" counter(list) "] ";
     counter-increment: list;
-}
+} */
 
 ol.working > li:before {
     content: "[" counter(list) "] ";
