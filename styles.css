@@ -134,7 +134,7 @@ p, li  {
 	padding: 0;
 }----*/
 
- ol {
+ol {
     counter-reset: list;
 }
 ol > li {
@@ -144,7 +144,11 @@ ol > li:before {
     content: "[" counter(list) "] ";
     counter-increment: list;
 }
-ol.working > li:before {
+ol.revpub > li:before {
+    content: "[" counter(list) "] ";
+    counter-increment: list -1;
+}
+ol.revwork > li:before {
     content: "[" counter(list) "] ";
     counter-increment: list -1;
 }
