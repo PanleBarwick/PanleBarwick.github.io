@@ -144,7 +144,7 @@ ol > li:before {
     content: "[" counter(list) "] ";
     counter-increment: list;
 }
-ol.revpub > li:before {
+ol.revpubs > li:before {
     content: "[" counter(list) "] ";
     counter-increment: list -1;
 }
