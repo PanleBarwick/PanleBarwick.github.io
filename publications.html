@@ -37,7 +37,7 @@
 			<br />
 			<br />
 			<h3>Working Papers</h3><br />
-			<ol class="tab1">
+			<ol reversed class="working">
 				<li>
 					"<a href="papers/Yr25_CHS.pdf", target="_blank">A Double Dose of Reform: Insurance and Centralized Negotiation in Drug Markets</a>," with Ashley Swanson and Tianli Xia, NBER Working Paper 33832, May 2025. <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5253368">SSRN Working Paper Link.</a> Featured in NBER Digest Fall 2025. Revise and Resubmit at <b><em>American Economic Review</em></b>.
 				<br />	
@@ -48,7 +48,7 @@
 				</li>
 				</li>
 				<li>
-					"<a href="papers/Yr25_Aug_Game_LaborMk.pdf", target="_blank">Digital Distractions with Peer Influence: The Impact of Mobile App Usage on Academic and Labor Market Outcome</a>,” with Siyu Chen, Chao Fu, and Teng Li, 2024. NBER Working Paper 33054. Revise and Resubmit at <b><em>Quarterly Journal of Economics</em></b>. Covered by Economist Nov 2024, Vox, and VoxChina.
+					"<a href="papers/Yr25_Aug_Game_LaborMk.pdf", target="_blank">Digital Distractions with Peer Influence: The Impact of Mobile App Usage on Academic and Labor Market Outcome</a>," with Siyu Chen, Chao Fu, and Teng Li, 2024. NBER Working Paper 33054. Revise and Resubmit at <b><em>Quarterly Journal of Economics</em></b>. Covered by Economist Nov 2024, Vox, and VoxChina.
 				<br />	
 				<br />	
 				</li>
@@ -80,7 +80,7 @@
 				</li>
 				</li>
 				
-			</div>
+			</ol>
 			<h3>Publications</h3><br />
 			<ol class="tab1">
 				<li>
@@ -408,6 +408,15 @@ Framework</a>," with Zhe Yuan, 2024. Forthcoming at <b><em>Rand Journal of Econo
     <p class="clear"></p>
   </div>
 </div>
+<script>
+
+document.querySelectorAll('.working')
+  .forEach(list => {
+  	const c = list.querySelectorAll('li').length + 1;
+  	list.style.counterReset = `list ${c}`;
+  });
+
+</script>
 </body>
 </html>
 

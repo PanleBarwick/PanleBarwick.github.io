@@ -122,18 +122,19 @@ h3 {
 	padding: 15px 0 6px 0;
 }
 p, li  {
-/*	font-size: 90%; */
+/* ---	font-size: 90%; */
 	font-size: 100%;
 	line-height: 23px;
 	margin: 0;
 	padding: 0 0 9px 0;
 	text-align: justify;
 }
-/* ol {
+/* ---- ol {
 	margin: 0 0 0 19px;
 	padding: 0;
-} */
-ol {
+}----*/
+
+ ol {
     counter-reset: list;
 }
 ol > li {
@@ -142,6 +143,10 @@ ol > li {
 ol > li:before {
     content: "[" counter(list) "] ";
     counter-increment: list;
+}
+ol.working > li:before {
+    content: "[" counter(list) "] ";
+    counter-increment: list -1;
 }
 ul {
 	list-style: none;
