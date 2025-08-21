@@ -141,19 +141,20 @@ ol > li {
     list-style: none;
 	counter-increment: item -1;
 }
-/* ol > li:before {
-    content: "[" counter(item) "] ";
-    counter-increment: list;
-} */
 
-ol.working > li:before {
+ol > li:before {
+    content: "[" counter(item) "] ";
+    /* counter-increment: list; */
+}
+
+/* ol.working > li:before {
     content: "[" counter(list) "] ";
     counter-increment: list -1;
 }
 ol.pubs > li:before {
     content: "[" counter(list) "] ";
     counter-increment: list -1;
-}
+} */
 
 
 ul {
