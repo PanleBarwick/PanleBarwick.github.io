@@ -144,10 +144,17 @@ ol > li:before {
     content: "[" counter(list) "] ";
     counter-increment: list;
 }
+
 ol.working > li:before {
     content: "[" counter(list) "] ";
     counter-increment: list -1;
 }
+ol.pubs > li:before {
+    content: "[" counter(list) "] ";
+    counter-increment: list -1;
+}
+
+
 ul {
 	list-style: none;
 }
